@@ -5,7 +5,7 @@ app.use(cors())
 app.use(Express.urlencoded({extended:true}))
 
 app.get('/',(req,res)=>{
-    res.json({message:"hey"})
+    res.json({message:"hey",test:"it works"})
 })
 
 
